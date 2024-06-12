@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="estilo2.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .contenido {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .formulario {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .formulario h1 {
+            text-align: center;
+            color: #333;
+        }
+        .formulario img {
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .elemento, .elemento-seleccion-personalizada {
+            margin-bottom: 20px;
+        }
+        .elemento h3, .elemento-seleccion-personalizada h3 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .entrada {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .entrada label {
+            margin-left: 10px;
+            color: #555;
+        }
+        .entrada input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenido">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <form action="" class="formulario">
+        <h1>Crea tu Metro</h1>
+        <img src="sub.png" alt="metro" width="100%">
+        <div class="elemento-seleccion-personalizada">
+            <h3>Elección de Pan</h3>
+            <div class="entrada">
+                <label for="pan_blanco">Pan blanco</label>
+                <input type="radio" id="pan_blanco" name="tipo_pan">
+            </div>
+            <div class="entrada">
+                <label for="pan_integral">Pan integral</label>
+                <input type="radio" id="pan_integral" name="tipo_pan">
+            </div>
+            <div class="entrada">
+                <label for="pan_avena_miel">Pan de avena y miel</label>
+                <input type="radio" id="pan_avena_miel" name="tipo_pan">
+            </div>
+            <div class="entrada">
+                <label for="pan_oregano_parmesano">Pan de orégano y parmesano</label>
+                <input type="radio" id="pan_oregano_parmesano" name="tipo_pan">
+            </div>
+            <div class="entrada">
+                <label for="pan_9_granos">Pan de 9 granos</label>
+                <input type="radio" id="pan_9_granos" name="tipo_pan">
+            </div>
+            <div class="entrada">
+                <label for="pan_sin_gluten">Pan sin gluten (en algunos lugares)</label>
+                <input type="radio" id="pan_sin_gluten" name="tipo_pan">
+            </div>
+        </div>
+        <div class="elemento">
+            <h3>Carnes y Proteínas</h3>
+            <div class="entrada">
+                <label for="jamon">Jamón</label>
+                <input type="radio" name="contenido" id="jamon">
+            </div>
+            <div class="entrada">
+                <label for="pavo">Pavo</label>
+                <input type="radio" name="contenido" id="pavo">
+            </div>
+            <div class="entrada">
+                <label for="pollo_asado">Pollo asado</label>
+                <input type="radio" name="contenido" id="pollo_asado">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

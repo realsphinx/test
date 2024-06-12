@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.contenido {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h1 {
+    text-align: center;
+    color: #333;
+}
+
+.formulario img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.elemento, .elemento-seleccion-personalizada {
+    margin-bottom: 20px;
+}
+
+.elemento h3, .elemento-seleccion-personalizada h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.entrada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.entrada label {
+    margin-left: 10px;
+    color: #555;
+}
+
+.entrada input {
+    margin-right: 10px;
+}
+
+.boton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
